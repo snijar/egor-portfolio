@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Егор — сайты, Telegram-боты и доработка сайтов</title>
+  <meta name="description" content="Создание сайтов, Telegram-ботов, лендингов, Taplink-страниц, форм заявок и доработка сайтов для бизнеса.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span class="ambient__blob ambient__blob--1"></span>
+    <span class="ambient__blob ambient__blob--2"></span>
+    <span class="ambient__blob ambient__blob--3"></span>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__dot"></span>
+        <span class="logo__text">Егор<span class="logo__muted"> · сайты и боты</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a href="#quick-services">Быстрые услуги</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#audience">Для кого</a></li>
+          <li><a href="#cases">Примеры</a></li>
+          <li><a href="#pricing">Цены</a></li>
+          <li><a href="#audit">Разбор</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--primary btn--sm btn--header-tg" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+        <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal" data-reveal>
+          <p class="eyebrow">Разработчик под задачи малого бизнеса</p>
+          <h1 class="hero__title">Сайты, Telegram-боты, доработки, заявки и автоматизация</h1>
+          <p class="hero__lead">
+            Делаю лендинги и мини-сайты, ботов под заявки, формы и кнопки связи, правлю уже существующие сайты и убираю ручную рутину — без лишней сложности и долгих согласований.
+          </p>
+          <ul class="hero__services-line" aria-label="Основные направления">
+            <li>Сайты и страницы</li>
+            <li>Telegram-боты</li>
+            <li>Доработки сайтов</li>
+            <li>Формы заявок</li>
+            <li>Автоматизация</li>
+          </ul>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+            <a class="btn btn--ghost" href="#quick-services">Быстрые услуги</a>
+          </div>
+          <ul class="hero__trust">
+            <li>Адаптивно под телефон</li>
+            <li>Понятные сроки</li>
+            <li>Фокус на заявках и связи</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" data-reveal aria-hidden="true">
+          <div class="float-cards">
+            <div class="float-card float-card--g float-card--1">Telegram-бот</div>
+            <div class="float-card float-card--c float-card--2">Лендинг</div>
+            <div class="float-card float-card--p float-card--3">Доработка</div>
+            <div class="float-card float-card--g float-card--4">Автоматизация</div>
+            <div class="float-card float-card--c float-card--5">Заявки</div>
+          </div>
+          <div class="hero__glass"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="quick-services">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Быстрые услуги</h2>
+          <p class="section-desc">Частые запросы, которые можно закрыть оперативно — напишите, что нужно именно вам.</p>
+        </header>
+        <div class="quick-services reveal" data-reveal>
+          <article class="quick-services__item">
+            <span class="quick-services__badge">от 1 дня</span>
+            <h3 class="quick-services__title">Taplink / мини-страница</h3>
+            <p class="quick-services__text">Контакты, услуги и кнопки в одном аккуратном месте.</p>
+          </article>
+          <article class="quick-services__item">
+            <h3 class="quick-services__title">Telegram-бот для заявок</h3>
+            <p class="quick-services__text">Приём заявок, простые сценарии и уведомления.</p>
+          </article>
+          <article class="quick-services__item">
+            <h3 class="quick-services__title">Доработка сайта</h3>
+            <p class="quick-services__text">Формы, кнопки, блоки, адаптив и правки по задаче.</p>
+          </article>
+          <article class="quick-services__item">
+            <h3 class="quick-services__title">Форма заявки</h3>
+            <p class="quick-services__text">Подключение и отправка заявок удобным способом.</p>
+          </article>
+          <article class="quick-services__item">
+            <h3 class="quick-services__title">Лендинг под услугу</h3>
+            <p class="quick-services__text">Страница с оффером, блоками и призывом к действию.</p>
+          </article>
+        </div>
+        <p class="quick-services__cta reveal" data-reveal>
+          <a class="btn btn--ghost" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить задачу в Telegram</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Что я делаю</h2>
+          <p class="section-desc">Шесть направлений, с которыми чаще всего приходят заказчики. Можно начать с малого и усилить позже.</p>
+        </header>
+        <div class="grid grid--services">
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Лендинги и мини-сайты</h3>
+            <p class="card__text">Создаю понятные страницы для услуг, заявок, мероприятий и бизнеса.</p>
+          </article>
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Telegram-боты</h3>
+            <p class="card__text">Боты для заявок, записи клиентов, FAQ, уведомлений и простой автоматизации.</p>
+          </article>
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Доработка сайтов</h3>
+            <p class="card__text">Исправляю блоки, кнопки, формы, адаптив, тексты, структуру и ошибки.</p>
+          </article>
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Формы заявок</h3>
+            <p class="card__text">Настраиваю формы, кнопки связи, отправку заявок и удобный путь клиента.</p>
+          </article>
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Taplink / страница-визитка</h3>
+            <p class="card__text">Быстрые аккуратные страницы с контактами, услугами и мессенджерами.</p>
+          </article>
+          <article class="card reveal" data-reveal>
+            <h3 class="card__title">Автоматизация</h3>
+            <p class="card__text">Помогаю убрать ручную рутину: заявки, уведомления, таблицы, сценарии.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="audience">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Для кого</h2>
+          <p class="section-desc">Если вам нужно, чтобы клиент быстро понял услугу и оставил заявку — я могу помочь.</p>
+        </header>
+        <div class="tags reveal" data-reveal>
+          <span class="tag">мастера и салоны</span>
+          <span class="tag">автосервисы</span>
+          <span class="tag">онлайн-школы</span>
+          <span class="tag">магазины</span>
+          <span class="tag">эксперты</span>
+          <span class="tag">малый бизнес</span>
+          <span class="tag">частные специалисты</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cases">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Примеры проектов</h2>
+          <p class="section-desc">Типовые задачи и форматы решений — обсудим ваш вариант в сообщениях.</p>
+        </header>
+        <div class="grid grid--cases">
+          <article class="case reveal" data-reveal>
+            <div class="case__accent case__accent--1"></div>
+            <h3 class="case__title">Telegram-бот для записи</h3>
+            <p class="case__text">Клиент выбирает услугу, дату, время и оставляет контакт. Мастер получает заявку.</p>
+            <div class="case__actions">
+              <a class="btn btn--link" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+            </div>
+          </article>
+          <article class="case reveal" data-reveal>
+            <div class="case__accent case__accent--2"></div>
+            <h3 class="case__title">Мини-сайт для мастера</h3>
+            <p class="case__text">Услуги, цены, примеры работ, контакты и кнопка записи в одном месте.</p>
+            <div class="case__actions">
+              <a class="btn btn--link" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+            </div>
+          </article>
+          <article class="case reveal" data-reveal>
+            <div class="case__accent case__accent--3"></div>
+            <h3 class="case__title">Лендинг для услуги</h3>
+            <p class="case__text">Страница с описанием, преимуществами, формой заявки и кнопками связи.</p>
+            <div class="case__actions">
+              <a class="btn btn--link" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+            </div>
+          </article>
+          <article class="case reveal" data-reveal>
+            <div class="case__accent case__accent--4"></div>
+            <h3 class="case__title">Доработка сайта</h3>
+            <p class="case__text">Исправление формы, кнопок, мобильной версии и структуры страницы.</p>
+            <div class="case__actions">
+              <a class="btn btn--link" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить проект</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Как я работаю</h2>
+          <p class="section-desc">Прозрачный процесс без лишней бюрократии.</p>
+        </header>
+        <ol class="steps">
+          <li class="step reveal" data-reveal>
+            <span class="step__num">01</span>
+            <div>
+              <h3 class="step__title">Вы описываете задачу</h3>
+              <p class="step__text">Что нужно сделать: сайт, бот, правки или автоматизация.</p>
+            </div>
+          </li>
+          <li class="step reveal" data-reveal>
+            <span class="step__num">02</span>
+            <div>
+              <h3 class="step__title">Я предлагаю решение</h3>
+              <p class="step__text">Объясняю простыми словами, что лучше сделать и как это будет работать.</p>
+            </div>
+          </li>
+          <li class="step reveal" data-reveal>
+            <span class="step__num">03</span>
+            <div>
+              <h3 class="step__title">Делаю рабочий вариант</h3>
+              <p class="step__text">Собираю проект, показываю результат, вношу правки.</p>
+            </div>
+          </li>
+          <li class="step reveal" data-reveal>
+            <span class="step__num">04</span>
+            <div>
+              <h3 class="step__title">Вы получаете готовое решение</h3>
+              <p class="step__text">Сайт, бот или доработка готовы к использованию.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="benefits">
+      <div class="container narrow">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Почему со мной удобно</h2>
+        </header>
+        <ul class="benefits reveal" data-reveal>
+          <li>Быстро разбираюсь в задаче</li>
+          <li>Объясняю простыми словами</li>
+          <li>Не усложняю без необходимости</li>
+          <li>Делаю адаптивно под телефон</li>
+          <li>Могу помочь с текстами и структурой</li>
+          <li>Работаю на результат, а не просто «чтобы было»</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <header class="section-head reveal" data-reveal>
+          <h2 class="section-title">Цены</h2>
+          <p class="section-desc">Точная стоимость зависит от задачи. Можно начать с простого варианта.</p>
+        </header>
+        <div class="grid grid--pricing">
+          <article class="price reveal" data-reveal>
+            <h3 class="price__name">Старт</h3>
+            <p class="price__amount">от 1000 ₽</p>
+            <p class="price__tagline">Taplink / мини-страница / простая правка</p>
+            <ul class="price__list">
+              <li>краткая информация</li>
+              <li>кнопки связи</li>
+              <li>контакты</li>
+              <li>адаптация под телефон</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить «Старт»</a>
+          </article>
+          <article class="price price--featured reveal" data-reveal>
+            <div class="price__badge">Чаще всего</div>
+            <h3 class="price__name">Стандарт</h3>
+            <p class="price__amount">от 3000 ₽</p>
+            <p class="price__tagline">Лендинг, форма заявки или небольшой бот</p>
+            <ul class="price__list">
+              <li>структура страницы</li>
+              <li>дизайн</li>
+              <li>форма/кнопки</li>
+              <li>базовая логика</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить «Стандарт»</a>
+          </article>
+          <article class="price reveal" data-reveal>
+            <h3 class="price__name">Проект</h3>
+            <p class="price__amount">от 7000 ₽</p>
+            <p class="price__tagline">Бот, сайт или автоматизация под конкретную задачу</p>
+            <ul class="price__list">
+              <li>продуманная структура</li>
+              <li>интеграции</li>
+              <li>сценарии</li>
+              <li>доработка под задачу</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Обсудить «Проект»</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" id="audit">
+      <div class="container">
+        <div class="cta-panel reveal" data-reveal>
+          <div class="cta-panel__copy">
+            <h2 class="cta-panel__title">Не знаете, что нужно именно вам?</h2>
+            <p class="cta-panel__text">
+              Могу бесплатно посмотреть ваш сайт, профиль или идею и подсказать, что лучше сделать: сайт, бота, форму заявки или небольшую доработку.
+            </p>
+          </div>
+          <a class="btn btn--primary btn--lg" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Получить разбор</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--bottom" id="contact">
+      <div class="container">
+        <div class="final-cta reveal" data-reveal>
+          <h2 class="final-cta__title">Нужен сайт, бот или правка?</h2>
+          <p class="final-cta__text">Напишите мне в Telegram — обсудим задачу и подберём простой рабочий вариант.</p>
+          <a class="btn btn--primary btn--lg" href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+          <div class="final-cta__contacts">
+            <span>Telegram: <a href="https://t.me/твой_юзернейм" target="_blank" rel="noopener noreferrer">@твой_юзернейм</a></span>
+            <span>Email: <a href="mailto:Gundorovegor55@gmail.com">Gundorovegor55@gmail.com</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Егор · сайты и Telegram-боты</span>
+      <span>Создание сайтов, ботов и доработки для малого бизнеса.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
